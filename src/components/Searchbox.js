@@ -1,13 +1,13 @@
 import React from "react";
 
-const SearchBox = ({ searchfield, searchChange }) => {
+const SearchBox = ({searchfield, searchChange}) => {
     return (
         <div className="pa2">
             <input
             className="pa3 ba b--black bg-light-gray" 
             type='search' 
             placeholder="search sport" 
-            onChange={searchChange} //The onchange event occurs when the value of an element has been changed. 
+            onChange = {searchChange}
             />
         </div>
     )

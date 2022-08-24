@@ -16,7 +16,6 @@ class Heading extends React.Component {
                         <li>Blog</li>
                         <li>Artykuly</li>
                     </ul>
-
                 </nav>
             </div>
         );
